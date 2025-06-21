@@ -137,7 +137,7 @@ body {
   color: var(--text);
   text-decoration: none;
 }
-/* .logo {
+.logo {
   text-shadow: 0 0 5px rgb(252, 9, 252), 0 0 10px rgb(252, 9, 252);
   font-size: 2rem;
   font-weight: bold;
@@ -149,7 +149,7 @@ body {
     color: blak;
     font-weight: 600;
     margin-right: 15px;
-} */
+}
 
 /* Nav links - desktop */
 .nav-links {
