@@ -1,0 +1,102 @@
+#contact h2 {
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--text);
+  }
+  
+  .contact-form {
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+  
+  .instructions {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    max-width: 480px;
+    margin: 0 auto 24px auto;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+  
+  input,
+  textarea {
+    margin-top: 6px;
+    background-color: var(--input-bg);
+    border: 2px solid var(--input-border);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    font-size: 1rem;
+    color: var(--text);
+    transition: border-color 0.3s ease;
+    resize: vertical;
+    min-height: 40px;
+    font-family: inherit;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: var(--input-focus-border);
+    outline: none;
+    box-shadow: 0 0 6px var(--accent);
+  }
+  
+  button[type="submit"] {
+    align-self: flex-start;
+    margin-top: 8px;
+    border: none;
+    border-radius: var(--radius);
+    background-color: var(--accent);
+    color: var(--btn-text);
+    padding: 0.75em 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--accent-focus);
+  }
+  
+  
+  .social-icons {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    color: var(--accent);
+    transition: color 0.25s ease;
+    border-radius: 8px;
+    padding: 6px;
+    user-select: none;
+  }
+  
+  .social-icons a:hover,
+  .social-icons a:focus {
+    color: var(--accent-focus);
+    outline: none;
+    filter: drop-shadow(0 0 2px var(--accent-focus));
+  }

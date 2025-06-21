@@ -1,0 +1,130 @@
+.about-container {
+  max-width: 1000px;
+  margin: 4rem auto 6rem;
+  padding: 0 1.25rem;
+  display: flex;
+  gap: 3rem;
+  user-select: text;
+  align-items: center;
+  color: var(--text);
+  scroll-margin-top: 70px; /* offset for sticky navbar if linking */
+}
+
+.about-photo-container {
+  flex: 0 0 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: var(--card-shadow);
+  user-select: none;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.about-photo:hover,
+.about-photo:focus {
+  outline: none;
+  transform: scale(1.06);
+  box-shadow: 0 12px 24px rgba(201, 166, 107, 0.35);
+}
+
+.about-text {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.about-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  user-select: text;
+  color: var(--accent);
+}
+
+.about-intro {
+  font-size: 1.15rem;
+  margin-bottom: 1.8rem;
+  max-width: 620px;
+  color: var(--text);
+}
+
+.highlight {
+  color: #a855f7; /* your accent color */
+  font-weight: 700;
+}
+
+.about-quote {
+  font-style: italic;
+  font-weight: 600;
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+  margin: 2rem 0;
+  color: var(--accent-focus);
+  max-width: 620px;
+  user-select: text;
+}
+
+.about-text h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.about-skills {
+  list-style: none;
+  padding-left: 0;
+  column-count: 2;
+  column-gap: 2rem;
+  margin-bottom: 1.5rem;
+  max-width: 650px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.about-skills li {
+  margin-bottom: 0.8rem;
+  user-select: text;
+  position: relative;
+  padding-left: 1.3rem;
+}
+
+.about-skills li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .about-photo-container {
+    flex: none;
+  }
+
+  .about-photo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .about-skills {
+    column-count: 1;
+    max-width: 100%;
+  }
+}
