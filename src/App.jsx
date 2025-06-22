@@ -22,7 +22,7 @@ function getPreferredTheme() {
   if (stored === "light" || stored === "dark" || stored === "blue" || stored === "system") {
     return stored;
   }
-  return "system"; // default
+  return "system";
 }
 
 function applyTheme(theme) {
@@ -38,7 +38,6 @@ function applyTheme(theme) {
       root.classList.add("dark");
     }
   }
-  // light: no class needed (default)
 }
 
 export default function App() {
