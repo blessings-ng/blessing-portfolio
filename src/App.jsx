@@ -113,7 +113,7 @@ export default function App() {
                 { to: "/about", label: "About" },
                 { to: "/projects", label: "Projects" },
                 { to: "/contact", label: "Contact" },
-                { to: "/hireMe", label: "Hire Me" },
+                { to: "/hireMe", label: "HireMe" },
               ].map(({ to, label }) => (
                 <li key={to} role="none">
                   <NavLink

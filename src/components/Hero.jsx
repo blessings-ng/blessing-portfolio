@@ -70,7 +70,7 @@ export default function Hero() {
     <>
       <header className="hero-100dvh">
         <div className="hero-overlay" />
-        <div className="hero-inner-content" data-aos="fade-up" data-aos-delay="200">
+        <div className="hero-inner-content" tabIndex={-1}>
           <h1 className="hero-animated-h1">
             Hello, I'm <span className="highlight">Blessings Igwe</span>
           </h1>
@@ -89,7 +89,7 @@ export default function Hero() {
         </div>
       </header>
 
-      <section className="logos-section" aria-label="Companies I've Worked With" data-aos="fade-up" data-aos-delay="400">
+      <section className="logos-section" aria-label="Companies I've Worked With" tabIndex={-1}>
         <h2>Companies I've Worked With</h2>
         <div className="logos-row" tabIndex={-1}>
           {logos.map(({ id, alt, }) => (
@@ -100,7 +100,7 @@ export default function Hero() {
         </div>
       </section>
 
-      <section className="reviews-section" data-aos="fade-up" data-aos-delay="300">
+      <section className="reviews-section" >
         <h2>Client Reviews</h2>
         <Slider {...reviewSettings}>
           {reviews.map(({ id, name, company, text }) => (
@@ -114,7 +114,7 @@ export default function Hero() {
 
     
 
-      <section className="skills-section" data-aos="fade-up fade-down" data-aos-delay="500">
+      <section className="skills-section"data-aos-delay="">
         <h2>My Skills</h2>
         <ul>
           <li>HTML &amp; CSS (Semantic and Accessible)</li>
@@ -127,7 +127,7 @@ export default function Hero() {
         </ul>
       </section>
 
-      <section className="map-section" data-aos="fade-up" data-aos-delay="600">
+      <section className="map-section" >
         <h2>Find Me Here</h2>
         
         <div className="map-container">
