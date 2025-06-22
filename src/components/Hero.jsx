@@ -7,7 +7,7 @@ import CalculatorImg from "../assets/images/calculator.png";
 import GuessingGameImg from "../assets/images/bclassic.png";
 import NeonImg from "../assets/images/neon.png";
 import BclaasicImg from "../assets/images/hero-banner-grid.png";
-import EducationWebsiteImg from "../assets/images/Capture.PNG";
+import EducationWebsiteImg from "../assets/images/heroimage2.jpg";
 
 const reviews = [
   {
@@ -69,6 +69,8 @@ export default function Hero() {
   return (
     <>
       <header className="hero-100dvh">
+        {/* <img src={EducationWebsiteImg} alt="hero-image" height={'dvh'}/>
+        <div></div> */}
         <div className="hero-overlay" />
         <div className="hero-inner-content" tabIndex={-1}>
           <h1 className="hero-animated-h1">
@@ -88,7 +90,8 @@ export default function Hero() {
           </div>
         </div>
       </header>
-
+      
+      
       <section className="logos-section" aria-label="Companies I've Worked With" tabIndex={-1}>
         <h2>Companies I've Worked With</h2>
         <div className="logos-row" tabIndex={-1}>

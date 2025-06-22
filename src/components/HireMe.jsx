@@ -1,13 +1,20 @@
 import React from "react";
+import "../App.css";
+import capture from "../assets/images/heroimage2.jpg"; 
 
 export default function HireMe() {
   return (
-    <section
-      style={{
-        maxWidth: "700px",
-        margin: "3rem auto",
-        padding: "0 1rem",
-        fontFamily: "system-ui, sans-serif",
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "", marginTop: "2rem",  }}>
+      <div>
+        <img src={capture} alt="Hire Me" width={'300px'} />
+      </div>
+
+      <section
+        style={{
+          maxWidth: "700px",
+          margin: "3rem auto",
+          padding: "0 1rem",
+          fontFamily: "system-ui, sans-serif",
         color: "var(--text)",
       }}
     >
@@ -19,7 +26,7 @@ export default function HireMe() {
       </p>
 
       <a
-        href="/resume.pdf"
+        href="/public/Virtual Assistance CV-.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download="Blessing_Igwe_Resume.pdf"
@@ -97,5 +104,6 @@ export default function HireMe() {
         </ul>
       </div>
     </section>
+    </div>
   );
 }

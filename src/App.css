@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0px px 0px;
   padding: 0;
 }
 
@@ -59,7 +59,7 @@
   --radius: 12px;
 }
 
-/* .dark {
+.dark {
   --bg: #161616;
   --text: #f5e9d3;
   --text-muted: #c9b794;
@@ -74,7 +74,7 @@
   --input-bg: #2a2a2a;
   --input-border: #5f5a52;
   --input-focus-border: var(--accent);
-} */
+} 
 
 /* Blue theme */
 
@@ -138,14 +138,14 @@ body {
   text-decoration: none;
 }
 .logo {
-  text-shadow: 0 0 5px rgb(199, 173, 27), 0 0 10px rgb(250, 236, 40);
+  text-shadow: 0 0 5px rgb(224, 214, 155), 0 0 10px rgb(250, 236, 40);
   font-size: 2rem;
   font-weight: bold;
-  color: #8a7917;
+  color: #ced1d4;
   animation: neon-glow;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:25px;
-    text-shadow: 0 0 10px rgb(236, 177, 14) 0 0 20px rgb(224, 19, 132);
+    text-shadow: 0 0 10px #927d42 0 0 20px rgb(224, 19, 132);
     color: blak;
     font-weight: 600;
     margin-right: 15px;
@@ -253,9 +253,9 @@ body {
 
 main {
   flex-grow: 1;
-  max-width: 900px;
-  margin: 2rem auto;
-  /* padding: 0 1rem; */
+  /* max-width: 900px; */
+  margin: auto;
+  padding: 0 rem;
 }
 
 /* Footer */

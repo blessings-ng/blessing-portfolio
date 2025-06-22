@@ -6,8 +6,7 @@ export default function About() {
     <main className="about-container">
       <div
         className="about-photo-container"
-        data-aos="fade-right"
-        data-aos-delay="200"
+        
       >
         <img
           src={capture}
@@ -19,10 +18,9 @@ export default function About() {
 
       <div
         className="about-text"
-        data-aos="fade-left"
-        data-aos-delay="400"
+        
       >
-        <h1 data-aos="fade-down" data-aos-delay="100">
+        <h1 data-aos-delay="100">
           About Me
         </h1>
 
@@ -32,10 +30,9 @@ export default function About() {
 
         <blockquote
           className="about-quote"
-          data-aos="fade-up"
-          data-aos-delay="500"
+          
         >
-          "Design is not just how it looks and feels. Design is how it works." <br />
+          " Web-design is not just how it looks and feels. Design is how it works." <br />
           – Steve Jobs
         </blockquote>
 

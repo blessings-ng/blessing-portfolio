@@ -6,8 +6,8 @@
 .hero-100dvh {
   position: relative;
   height: 100dvh;
-  /* background-image: url('../images/hero-image.jpeg'); */
-  background-color: rgb(124, 73, 73);
+  background-image: url('../images/heroimage3.jpg') cover ;
+  background-color: rgb(65, 66, 60);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -355,6 +355,9 @@
   .hero-subtitle {
     font-size: 1.2rem;
   }
+  .hero-100dvh{
+    background-image: url('../images/heroimage3.jpg');
+  }
   .hero-buttons {
     flex-direction: column;
   }
@@ -392,3 +395,4 @@
     background-image: url('../images/hero-image.jpeg');
   }
 }
+
