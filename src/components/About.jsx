@@ -36,9 +36,9 @@ export default function About() {
           – Steve Jobs
         </blockquote>
 
-        <h2 data-aos="fade-down" data-aos-delay="600">Skills & Expertise</h2>
+        <h2  data-aos-delay="600">Skills & Expertise</h2>
 
-        <ul className="about-skills" data-aos="fade-up" data-aos-delay="700">
+        <ul className="about-skills"  data-aos-delay="700">
           <li>HTML5 &amp; CSS3 – Semantic, Maintainable</li>
           <li>JavaScript ES6+ & React.js with Hooks</li>
           <li>Responsive & Mobile-first Web Design</li>
@@ -48,9 +48,9 @@ export default function About() {
           <li>UI/UX collaboration — Figma to Code</li>
         </ul>
 
-        <h2 data-aos="fade-down" data-aos-delay="800">What Drives Me</h2>
+        <h2  data-aos-delay="800">What Drives Me</h2>
 
-        <p data-aos="fade-up" data-aos-delay="900">
+        <p data-aos-delay="900">
           I thrive on bringing creative vision to life with clean code and robust architecture. Every project is a new adventure, where I combine technical skills and artistic eye to build something meaningful.
         </p>
       </div>
