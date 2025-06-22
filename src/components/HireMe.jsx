@@ -4,7 +4,7 @@ import capture from "../assets/images/heroimage2.jpg";
 
 export default function HireMe() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "", marginTop: "2rem",  }}>
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "2rem",  }}>
       <div>
         <img src={capture} alt="Hire Me" width={'300px'} />
       </div>
