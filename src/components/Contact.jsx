@@ -52,7 +52,7 @@ export default function Contact() {
 
   return (
     <section id="contact" aria-labelledby="contact-heading" tabIndex={-1}>
-      <h2 id="contact-heading">Contact</h2>
+      <h2 id="contact-heading">Contact Me</h2>
 
       <form
         className="contact-form"
